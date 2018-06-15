@@ -438,7 +438,7 @@ a.button--login {
   border-style: solid;
   border-radius: 22px;
   height: 44px;
-  padding-top: 8px;
+  padding-top: 3px;
   padding-left: 20px;
   padding-right: 20px;
   color: #037EC6;
@@ -489,7 +489,7 @@ a.button--login:active {
 }
 .header {
   position: relative;
-  height: 200px;
+  /* height: 200px; */
   background-color: #00588b;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1095,6 +1095,11 @@ a.button--login:active {
 .error-description p a {
   color: #38505E;
 }
+img {
+  height: 100%;
+  width: 100%;
+}
+
 .login-page {
   background-image: url("../img/bg/palms.jpg");
   background-repeat: no-repeat;
@@ -1102,6 +1107,7 @@ a.button--login:active {
   background-size: cover;
   position: relative;
   color: #FFF;
+  height: 100%;
 }
 .login-page .link {
   color: #FFF;
@@ -1146,7 +1152,7 @@ a.button--login:active {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 .login-header {
   display: -webkit-box;
